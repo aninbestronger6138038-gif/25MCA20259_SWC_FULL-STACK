@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Product Explorer Dashboard
+</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<nav>
+
+<h2>
+🛒 Product Explorer
+</h2>
+
+</nav>
+<div class="controls">
+<input 
+id="search"
+type="text"
+placeholder="Search product..."
+>
+
+
+<select id="category">
+
+<option value="all">
+All Categories
+</option>
+
+</select>
+
+
+
+<select id="sort">
+
+<option value="default">
+Sort Price
+</option>
+
+<option value="low">
+Low to High
+</option>
+
+<option value="high">
+High to Low
+</option>
+
+
+</select>
+
+</div>
+<h3 id="count"></h3>
+<p id="loading">
+Loading products...
+</p>
+
+<div id="productContainer">
+
+</div>
+
+<h2 id="empty">
+
+No products found
+
+</h2>
+
+<script src="script.js"></script>
+</body>
+
+</html>
